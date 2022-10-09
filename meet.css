@@ -1,0 +1,102 @@
+body{
+    /* background: url("wd.jpg");
+    background-size:cover; */
+    /* background-position: center; */
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif; 
+}
+
+/* nav{
+    font-size: large;
+    font-style: italic;
+    margin: 5px;
+    padding: 20px;
+    width: max;
+    height: min;
+    align-items: center; 
+    align-items: flex;
+    justify-content: center;
+    background-color:yellow;
+    position: center;
+}
+
+nav:hover{
+    cursor: pointer;
+    background: red;
+    color: white;
+} */
+
+.login{
+    width: 320px;
+    height: 410px;
+    background:linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    color: darkorange;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 40px 25px;
+}
+
+h1{
+    margin-top:0px;
+    margin-left: 20px;
+    padding-top:0px;
+    text-align: center;
+    font-size: large;
+}
+
+.login p{
+    margin: 5px;
+    padding:5px;
+    font-size: large;
+    /* font-weight: bold; */
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login input[type="text"], input[type="password"]{
+    border: none;
+     background: transparent; 
+     border-bottom: 1px solid #fff; 
+     outline: none;  
+     color: white;
+    font-size: 15px;
+}
+
+/* .login input[type="submit"]{
+    border:none;
+    outline: none;
+    height: 40px;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+} */
+
+.login input[type=submit]{
+    border-radius: 25px;
+    height: 30px;
+}
+
+.login input[type="submit"]:hover{
+    cursor: pointer;
+    background:yellow;
+}
+
+.login a{
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 25px;
+    color: darkgray;
+}
+
+.login a:hover{
+    color:chartreuse;
+}
+
