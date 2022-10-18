@@ -28,8 +28,8 @@ nav:hover{
 } */
 
 .login{
-    width: 320px;
-    height: 410px;
+    width: 320vw;
+    height: 410vh;
     background:linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     color: darkorange;
     top: 50%;
